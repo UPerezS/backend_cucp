@@ -1,0 +1,6 @@
+projectKey=SonarShop
+serverUrl=http://localhost:9000
+serverVersion=10.6.0.92116
+dashboardUrl=http://localhost:9000/dashboard?id=SonarShop
+ceTaskId=8741f9dc-ebd6-4ad7-b2e3-5c78dfc6b8f2
+ceTaskUrl=http://localhost:9000/api/ce/task?id=8741f9dc-ebd6-4ad7-b2e3-5c78dfc6b8f2

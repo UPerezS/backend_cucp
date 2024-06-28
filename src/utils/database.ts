@@ -1,11 +1,12 @@
-import mysql from 'promise-mysql';
-
-const pool = mysql.createPool({
-    host: 'localhost',
-    port: 3306,
-    user: 'root',
-    password: 'password',
-    database: 'apliweb'
-});
-
-export default pool;
+export default {
+    keys: {
+        secret: 'uriel'
+    },
+    database: {
+        host: 'localhost',
+        port: 3306,
+        user: 'root',
+        password: 'password',
+        database: 'apliweb'
+    }
+}
